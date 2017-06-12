@@ -6,6 +6,10 @@ handlers:
   static_files: index.html
   upload: /
 
+- url: /resume.pdf
+  static_files: resume.pdf
+  upload: /
+
 - url: /css
   static_dir: css
 
