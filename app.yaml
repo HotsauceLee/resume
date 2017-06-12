@@ -3,7 +3,6 @@ api_version: 1
 
 handlers:
 - url: /
-  application_readable: true
   static_files: index.html
   upload: /
 
