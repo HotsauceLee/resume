@@ -18,5 +18,5 @@ handlers:
 - url: /images
   static_dir: images
 
-- url: /php
-  static_dir: php
+- url: /php/contact.php
+  script: php/contact.php
