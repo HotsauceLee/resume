@@ -3,23 +3,29 @@ api_version: 1
 
 handlers:
 - url: /
+  application_readable: true
   static_files: index.html
   upload: /
 
 - url: /resume.pdf
+  application_readable: true
   static_files: resume.pdf
   upload: /
 
 - url: /css
+  application_readable: true
   static_dir: css
 
 - url: /js
+  application_readable: true
   static_dir: js
 
 - url: /fonts
+  application_readable: true
   static_dir: fonts
 
 - url: /images
+  application_readable: true
   static_dir: images
 
 - url: /php/contact.php
