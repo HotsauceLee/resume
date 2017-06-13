@@ -4,13 +4,13 @@ api_version: 1
 handlers:
 - url: /
   application_readable: true
-  static_files: index.html
-  upload: /
+  static_files: static/index.html
+  upload: static/index.html
 
 - url: /resume.pdf
   application_readable: true
-  static_files: resume.pdf
-  upload: /
+  static_files: static/resume.pdf
+  upload: static/resume.pdf
 
 - url: /css
   application_readable: true
